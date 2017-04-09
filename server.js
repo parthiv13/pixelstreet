@@ -78,7 +78,7 @@ app.post('/id', (req, res) => {
                  console.log(items);
                  json = Object.assign({}, items);
                  console.log(json);
-                 res.send(items)
+                 res.send(items[0])
                  db.close()
              })
          }

@@ -12,6 +12,8 @@ let url = "mongodb://parthiv:parthiv@ds119370.mlab.com:19370/pixelstreet";
 let MongoClient = mongod.MongoClient;
 let json = '';
 
+app.use(express.static('thigs'))
+
 app.get('/', (req, res) => {
 	res.send(req.query);
 });

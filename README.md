@@ -1,7 +1,10 @@
 # pixelstreet
 ##Backend code for pixelstreet App
 
-### Request URLs
+### Current available request URLs
+
+*All are POST requests*
+
 ``` javascript
 /location
 body : {
@@ -26,3 +29,11 @@ body: {
 }
 ```
 Returns the photographer that has the specified *id*.
+
+## Setup
+Clone this repo to your desktop and run npm install to install all the dependencies.
+
+Once the dependencies are installed, you can run `node server.js` to start the application. You will then be able to access it at http://localhost:8090/
+
+## Deployment
+The app has been deployed at [PixelStreet](https://pixel-street.herokuapp.com/)
